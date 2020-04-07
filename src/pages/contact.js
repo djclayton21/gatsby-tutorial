@@ -5,8 +5,8 @@ import Header from "../components/Header"
 const Contact = () => {
   return (
     <div>
-      <Link to="/">Home</Link>
       <Header headerText="Contact Page" />
+      <Link to="/">Home</Link>
     </div>
   )
 }
