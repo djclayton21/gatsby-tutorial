@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import { Link } from "gatsby"
 
 export default () => (
-  <div style={{ color: "blue", fontSize: "2rem" }}>
+  <div style={{ margin: '3rem auto', maxWidth: 600}}>
     <Link to="/contact/">Contact</Link>
     <Link to="/about-css-modules/">About Css Modules</Link>
     <Link to="/about-styled-components/">About Styled Components</Link>
