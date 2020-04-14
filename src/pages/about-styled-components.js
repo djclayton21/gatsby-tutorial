@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const Container = styled.div`
   margin: 3rem auto;
@@ -61,5 +62,6 @@ export default () => (
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
       excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
+    <Link to="/">Home</Link>
   </Container>
 )
